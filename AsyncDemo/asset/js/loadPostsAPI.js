@@ -60,7 +60,7 @@ function load_fromPlaceHolder() {
         .catch(function(err) {
             console.log(err);
         });
-    },2000)
+    },1500)
     
 }
 
