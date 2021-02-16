@@ -23,27 +23,29 @@ html, body, .container {
     position: absolute;
     top: 400px;
     left: 380px;
-
+    transform-origin: bottom;
 }
 
 #hr-hand {
-    top: 240px;
+    top: 230px;
+    left: 370px;
+    width: 20px;
 }
 
 #min-hand {
-    left: 370px;
-    top: 245px;
+    top: 100px;
+    left: 350px;
 }
 
 #sec-hand {
     left: 370px;
-    top: 220px;
+    top: 110px;
 }   
 
 .clock:after {
     position: absolute;
     content: '';
-    background: #000;
+    background: rgb(88, 88, 88);
     width: 20px;
     height: 20px;
     top: 325px;
