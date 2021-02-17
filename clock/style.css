@@ -27,19 +27,19 @@ html, body, .container {
 }
 
 #hr-hand {
-    top: 230px;
+    top: 200px;
     left: 370px;
     width: 20px;
 }
 
 #min-hand {
-    top: 100px;
-    left: 350px;
+    top: 130px;
+    left: 340px;
 }
 
 #sec-hand {
     left: 370px;
-    top: 110px;
+    top: 90px;
 }   
 
 .clock:after {
